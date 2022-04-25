@@ -29,9 +29,9 @@ var MoonFlyingState = (function () {
 		"Thanks for crashing in, I guess."
 	];
 	
-	const kMaximumForwardSpeed = 30
-	const kMinimumForwardSpeed = -20
-	const kMaximumRotationVelocity = 0.4
+	const kMaximumForwardSpeed = 1000
+	const kMinimumForwardSpeed = -1000
+	const kMaximumRotationVelocity = 1.0
 	const kForwardImpulse = 15
 	const kVerticalImpulse = 12
 	const kRotationalImpulse = 2
